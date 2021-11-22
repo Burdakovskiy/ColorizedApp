@@ -24,11 +24,9 @@ class ViewController: UIViewController {
         redSlider.value = 110
         greenSlider.value = 150
         blueSlider.value = 180
+    
         
-        redLabel.text = string(from: redSlider)
-        greenLabel.text = string(from: greenSlider)
-        blueLabel.text = string(from: blueSlider)
-        
+        setLabelsValue([redLabel, greenLabel, blueLabel])
         setColor()
     }
 
@@ -45,8 +43,23 @@ class ViewController: UIViewController {
         default:
             break
         }
-        
     }
+    
+    func setLabelsValue(_ label: [UILabel]) {
+        label.forEach { label in
+            switch label.tag {
+            case 0:
+                redLabel.text = string(from: redSlider)
+            case 1:
+                greenLabel.text = string(from: greenSlider)
+            case 2:
+                blueLabel.text = string(from: blueSlider)
+            default:
+                break
+            }
+        }
+    }
+    
     func setColor() {
         view.backgroundColor = UIColor(red: CGFloat(redSlider.value) / 255,
                                        green: CGFloat(greenSlider.value) / 255,

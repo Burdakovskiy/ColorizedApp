@@ -54,13 +54,13 @@
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzk-FE-bK6">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="1" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uzk-FE-bK6">
                                                 <rect key="frame" x="0.0" y="42" width="40" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
-                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2T1-rn-rHd">
+                                            <label opaque="NO" userInteractionEnabled="NO" tag="2" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2T1-rn-rHd">
                                                 <rect key="frame" x="0.0" y="84" width="40" height="24"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                                 <nil key="textColor"/>
@@ -109,6 +109,7 @@
                         <outlet property="GreenLabel" destination="uzk-FE-bK6" id="dP7-mM-TNd"/>
                         <outlet property="blueLabel" destination="2T1-rn-rHd" id="6au-78-kjV"/>
                         <outlet property="blueSlider" destination="Wva-XT-MqJ" id="E3x-x5-7oR"/>
+                        <outlet property="greenLabel" destination="uzk-FE-bK6" id="jqY-dP-g3S"/>
                         <outlet property="greenSlider" destination="mPx-D1-juS" id="YaO-md-fwf"/>
                         <outlet property="redLabel" destination="5ZU-lo-0M9" id="Wd9-J9-pbM"/>
                         <outlet property="redSlider" destination="CMC-8S-lbk" id="a0v-oC-8ug"/>
